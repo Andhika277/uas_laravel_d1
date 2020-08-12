@@ -1,10 +1,10 @@
 @extends('layouts.app')
-@section('title','Prodi Page')
+@section('title','Halaman Prodi')
 @section('bread1','Prodi')
 @section('bread2','Data')
 @section('content')
     <h3>Master Data Prodi</h3>
-    <p><a href="/prodi/create" class="btn btn-success btn-sm">Tambah</a></p>
+    <p><a href="/prodi/create" class="btn btn-success btn-sm">Tambah Data</a></p>
 
     @include('layouts.alert')
     
